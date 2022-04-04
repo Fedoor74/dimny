@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title> медиа запросы </title>
+<style type="text/css">
+	body {background:green;}
+	@media screen and (max-width:1800px) and (max-height:1000px){
+body{background:yellow;}
+}
+	@media screen and (max-width:800px)and (max-height:600px){
+		body{background:red;}
+	}
+@media screen and (max-width:640px) and (max-height:480px){
+body{background:blue}
+}
+</style>
+</head>
+<body>
+</body>
+</html>
