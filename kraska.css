@@ -1,0 +1,30 @@
+#header{
+height: 15%;
+width: 100%;
+background-color: orange;
+margin-left: 0px;
+margin-right: 0px;
+}
+#center{
+height: 70%;
+width: 70%;
+background-color: green;
+position: absolute; left:15%; 
+}
+#left{
+height: 70%;
+width: 15%;
+background-color: gray;
+position: absolute; left:0px
+}
+#right{
+height: 70%;
+width: 15%;
+background-color: blue;
+position: absolute; right:0px
+}
+#footer{
+height: 15%;
+width: 100%;
+background-color: blue;
+}
