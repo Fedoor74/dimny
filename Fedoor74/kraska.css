@@ -17,6 +17,7 @@ width: 70%;
 background-color: green;
 background-color: #00aaaa;
 position: absolute; left:15%; 
+font-size: 20;
 }
 #left{
 height: 70%;
@@ -48,3 +49,7 @@ transition-duration: 2s;
 button:hover{
 	background-color: red;
 }
+img: hover{
+	outline: 3px solid green;
+}
+body{transition-duration: .7s}
