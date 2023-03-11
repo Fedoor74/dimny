@@ -21,10 +21,23 @@
 </ul></div>
 <div id="right"></div>
 <div id="footer"></div>
+<div class ="article">
+  <h3>заголовок</h3>
+  <p>абзац</p>
+  <p>абзац</p>
+</div>
 <script>
 setTimeout(function(){
   document.getElementsByTagName('div')[0].style.backgroundColor = 'red'
 }, 5000);
+var x=open('https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwjBl6KMidT9AhWXHXcKHWG1DlEQPAgI','google');
+function close(){
+  x.close();
+}
+x.moveTo (50,50)
+setTimeout (close,5000);
+var articleDiv=document.querySelectorr("div.article");
+
 </script>
 </body>
 </html>
