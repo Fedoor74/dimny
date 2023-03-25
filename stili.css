@@ -1,0 +1,66 @@
+@media screen and (min-device-aspect-ratio: 16/9) {
+#logo {
+
+width: 100%;
+
+height: 20%;
+
+position: absolute;
+
+top:0px;
+
+left:0px;
+
+background-color: #9f2b68;
+
+}
+.fis img {
+	width
+}
+
+#leftmenu {
+
+width: 20%;
+
+height: 70%;
+
+position: absolute;
+
+top: 20%;
+
+left:0px;
+
+background-color: #8a7f8e;
+
+}
+
+#rightnews {
+
+width: 20%;
+
+height: 70%;
+
+position: absolute;
+
+top: 20%;
+
+left:80%;
+
+background-color: #8a7f8e;
+
+}
+
+#center {
+
+width: 60%;
+
+height: 70%;
+
+position: absolute;
+
+top: 20%;
+
+left:20%;
+
+background-color: #c6ccc0;
+}}
